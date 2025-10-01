@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let caracter = prompt("Dime un caracter:");
+        function esVocal(caracter){
+            let vocal = true;
+            if(caracter=='a' || caracter=='e' || caracter=='i' || caracter=='o' || caracter=='u'){
+                document.write(vocal)
+            }else{
+                vocal=false
+                document.write(vocal)
+                document.write("La letra introducida es "+caracter)
+            }
+        }
+
+        esVocal(caracter);
+    </script>
+</body>
+</html>

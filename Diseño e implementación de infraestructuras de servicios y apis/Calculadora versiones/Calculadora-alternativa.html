@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora con función única</title>
+  <script type="text/javascript">
+    function calcula(operacio) {
+      var num1;
+      var num2;
+      var res;
+
+      num1 = parseInt(document.calculadora.valor1.value);
+      num2 = parseInt(document.calculadora.valor2.value);
+
+      if (operacio == 1) res = num1 + num2;
+      if (operacio == 2) res = num1 - num2;
+      if (operacio == 3) res = num1 * num2;
+      if (operacio == 4) {
+        if (num2 === 0) {
+          res = "Error: división por cero";
+        } else {
+          res = num1 / num2;
+        }
+      }
+
+      document.calculadora.resultado.value = res;
+    }
+  </script>
+</head>
+
+<body>
+  <h2>Calculadora (función única)</h2>
+  <form name="calculadora">
+    Primer número: <input type="text" name="valor1"><br>
+    Segundo número: <input type="text" name="valor2"><br><br>
+
+    <input type="button" name="button1" value="Sumar" onclick="calcula(1)">
+    <input type="button" name="button2" value="Restar" onclick="calcula(2)">
+    <input type="button" name="button3" value="Multiplicar" onclick="calcula(3)">
+    <input type="button" name="button4" value="Dividir" onclick="calcula(4)"><br><br>
+
+    Resultado: <input type="text" name="resultado" readonly>
+  </form>
+</body>
+</html>

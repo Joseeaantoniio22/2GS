@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numero = parseInt(prompt("Dime un numero, el numero que me digas, será las veces que mostrare el caracter:"))
+        let caracter = prompt("Dime un caracter:")
+
+        function generar_caracteres(numero, caracter){
+            for (let index = 0; index < numero; index++) {
+                document.write(caracter)
+            }
+        }
+        generar_caracteres(numero, caracter);
+    </script>
+</body>
+</html>
