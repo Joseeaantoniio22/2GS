@@ -1,10 +1,9 @@
-package com.example.actividad01.ui.theme
+package com.example.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.font.FontFamily
-
-import androidx.compose.ui.text.googlefonts.GoogleFont
 import androidx.compose.ui.text.googlefonts.Font
+import androidx.compose.ui.text.googlefonts.GoogleFont
 import com.example.actividad01.R
 
 val provider = GoogleFont.Provider(
@@ -15,14 +14,14 @@ val provider = GoogleFont.Provider(
 
 val bodyFontFamily = FontFamily(
     Font(
-        googleFont = GoogleFont("Abel"),
+        googleFont = GoogleFont("Alfa Slab One"),
         fontProvider = provider,
     )
 )
 
 val displayFontFamily = FontFamily(
     Font(
-        googleFont = GoogleFont("AR One Sans"),
+        googleFont = GoogleFont("Almendra Display"),
         fontProvider = provider,
     )
 )
