@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Actividad01</string>
+    <string name="botonPulsado">Pulsar</string>
+    <string name="botonReseteado">Resetear</string>
+    <string name="textoMain">Nadie pulso el boton</string>
+    <string name="textoPulsado">Jose pulso el boton</string>
+    <string name="textoTarjeta">Tarjeta</string>
+</resources>

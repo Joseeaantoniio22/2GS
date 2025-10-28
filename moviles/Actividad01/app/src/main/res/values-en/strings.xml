@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Actividad01</string>
+    <string name="botonPulsado">Click on the button</string>
+    <string name="botonReseteado">Reset the text</string>
+    <string name="textoMain">One no click the button yet</string>
+    <string name="textoPulsado">Jose clicked on the button</string>
+    <string name="textoTarjeta">Card</string>
+</resources>
