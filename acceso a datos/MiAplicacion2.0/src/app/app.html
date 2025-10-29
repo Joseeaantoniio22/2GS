@@ -3,4 +3,5 @@
 <app-header></app-header>
 <app-header></app-header>
 <app-header></app-header>
-<input type="text" [value]="Username">
+<input type="text" [(ngModel)]="Username">
+<h1 (click)="addOne()">Numero: {{number}}</h1>
