@@ -13,9 +13,13 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "ES2022",
+<<<<<<< HEAD
     "module": "esnext",
     "moduleResolution": "bundler"
 
+=======
+    "module": "preserve"
+>>>>>>> 5287271cae2a8e77ad7d134aec07d80829d28345
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

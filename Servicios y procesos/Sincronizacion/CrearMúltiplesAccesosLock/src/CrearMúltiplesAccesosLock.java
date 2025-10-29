@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-package CrearMúltiplesAccesosLock.src;
-=======
->>>>>>> 5287271cae2a8e77ad7d134aec07d80829d28345
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
