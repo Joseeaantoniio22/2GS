@@ -1,7 +1,5 @@
 <h1>Hola {{Username}}</h1>
-<app-header></app-header>
-<app-header></app-header>
-<app-header></app-header>
-<app-header></app-header>
-<input type="text" [(ngModel)]="Username">
-<h1 (click)="addOne()">Numero: {{number}}</h1>
+<h2>Numero: {{number}}</h2>
+<input type="text" [(ngModel)]="Username" (input)="addOne()">
+<!--<h1 (click)="addOne()">Numero: {{number}}</h1>-->
+
