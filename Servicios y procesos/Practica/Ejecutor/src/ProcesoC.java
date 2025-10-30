@@ -8,9 +8,7 @@ public class ProcesoC {
 
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
             String linea;
-
             while ((linea = reader.readLine()) != null) {
-                // formato: palabra,longitud
                 String[] partes = linea.split(",");
                 if (partes.length < 2) {
                     continue;

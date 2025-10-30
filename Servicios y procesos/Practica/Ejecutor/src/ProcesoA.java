@@ -9,7 +9,7 @@ public class ProcesoA {
         String letras = "abcdefghijklmnopqrstuvwxyz";
 
         for (int i = 0; i < 15; i++) {
-            int longitud = numRandom.nextInt(11) + 5; // entre 5 y 15
+            int longitud = numRandom.nextInt(11) + 5; // Te da aleatoriamente 11 valores. El +5 indica que sea desde 5-15
             StringBuilder sb = new StringBuilder();
 
             for (int j = 0; j < longitud; j++) {
