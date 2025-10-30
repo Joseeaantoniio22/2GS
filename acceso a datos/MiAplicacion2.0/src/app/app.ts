@@ -17,5 +17,8 @@ export class App {
   addOne(){
     this.number++
   }
+
+  condicion: boolean=false;
+  condicion2: string="Viva España"
 }
 
