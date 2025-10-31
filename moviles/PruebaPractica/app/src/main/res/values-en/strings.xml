@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PruebaPractica</string>
+    <string name="Titulo">My tasks</string>
+    <string name="tarea1">Study kotlin</string>
+    <string name="tarea2">Work out</string>
+    <string name="tarea3">Read a book</string>
+    <string name="tarea4">Check email box</string>
+</resources>
