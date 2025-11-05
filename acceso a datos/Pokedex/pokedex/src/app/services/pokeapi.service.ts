@@ -4,6 +4,7 @@ import { lastValueFrom } from 'rxjs/internal/lastValueFrom';
 import { Pokemon } from '../models/pokemon';
 import { Observable } from 'rxjs/internal/Observable';
 import { forkJoin } from 'rxjs/internal/observable/forkJoin';
+import { PokemonDetail } from '../models/pokemon-detail';
 
 @Injectable({
   providedIn: 'root',
@@ -28,5 +29,21 @@ export class PokeapiService {
       pokemons.push(pokemon);
     }
     return pokemons;
+  }
+
+  async getPokemonDetail(id: number): Promise<PokemonDetail> {
+    const request: Observable<Object> = this.http.get(
+      `${this.BASE_URL}pokemon/${id}`
+    );
+    const dataRaw: any = await lastValueFrom(request);
+    const pokemon: PokemonDetail = {
+      id: dataRaw.id,
+      name: dataRaw.name,
+      imageUrl: dataRaw.sprites.other['official-artwork'].front_default,
+      types: (dataRaw.types as any[]).map((type) => type.type.name),
+      height: dataRaw.height,
+      weight: dataRaw.weight,
+    };
+    return pokemon;
   }
 }
