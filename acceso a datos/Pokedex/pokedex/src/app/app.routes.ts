@@ -7,3 +7,4 @@ export const routes: Routes = [
     { path: 'pokemon/:id', component: PokemonComponent }
    ];
    
+   

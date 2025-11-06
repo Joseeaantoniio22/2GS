@@ -46,4 +46,10 @@ h1 {
     gap: 5px;
     justify-content: center;
    }
+   filter {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+   }
    
