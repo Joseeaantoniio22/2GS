@@ -17,11 +17,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            MaterialTheme{
+            CampingTheme{
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    CampingTheme{
                         CampingMain(modifier = Modifier.padding(innerPadding));
-                    }
                 }
             }
         }

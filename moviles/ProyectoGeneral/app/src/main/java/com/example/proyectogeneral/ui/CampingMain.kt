@@ -19,7 +19,7 @@ import com.example.proyectogeneral.R
 
 @Composable
 fun CampingMain(modifier: Modifier){
-    val context = LocalContext.current;
+    val context = LocalContext.current
         Column(
             verticalArrangement = Arrangement.spacedBy(
                 20.dp,
