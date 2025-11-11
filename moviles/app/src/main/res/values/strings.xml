@@ -1,16 +1,10 @@
 <resources>
-    <string name="app_name">ProyectoGeneral</string>
+    <string name="app_name">Proyecto</string>
     <string name="BotonNosotros">Sobre Nosotros</string>
     <string name="historia">historia</string>
     <string name="AcercaDe">Acerca de </string>
     <string name="Ayuda">Ayuda</string>
     <string name="Bienvenida">Bienvenido a ExotiCamping</string>
     <string name="textoNosotros">"Bienvenidos a ExotiCamping, un rincón natural en plena Costa del Sol, donde el sol, el mar y la tranquilidad se unen para ofrecerte una experiencia única.             Aquí, cada amanecer huele a aventura y cada atardecer invita al descanso.              Nuestra mascota, Tiko el Camaleón, representa lo que más nos define: la armonía con la naturaleza, la adaptabilidad y el color que da vida a cada rincón de nuestro camping.             Como él, nos gusta tomarnos el tiempo para disfrutar del entorno, conectar con la tierra y cuidar cada detalle para que te sientas como en casa.              En Camping BrisaMar apostamos por un turismo sostenible y cercano, donde el respeto por el medio ambiente y el amor por la costa malagueña van de la mano.             Tanto si vienes en familia, con amigos o en pareja, aquí encontrarás el equilibrio perfecto entre diversión, descanso y naturaleza.     "</string>
-    <string name="InfoDev">Informacion del desarrollador</string>
-    <string name="Nombre">Nombre: Jose Antonio Fernandez Guerrero</string>
-    <string name="Correo">Correo: jfergue055@g.educaand.es</string>
-    <string name="Portafolio">Portafolio: www.joseantonio.com</string>
-    <string name="DatosApli">Datos de la aplicacion</string>
-    <string name="Version">Version: 1.0.0</string>
-    <string name="NombreCamping">Nombre: ExotiCamping</string>
+
 </resources>

@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ProyectoGeneral</string>
+    <string name="app_name">Proyecto</string>
+    <string name="BotonNosotros">About Us</string>
+    <string name="historia">History</string>
     <string name="AcercaDe">About ExotiCamping</string>
     <string name="Ayuda">Help Me</string>
     <string name="Bienvenida">Welcome to ExotiCamping</string>
     <string name="textoNosotros">Welcome to ExotiCamping, a natural haven on the Costa del Sol, where the sun, the sea, and tranquility come together to offer you a truly unique experience. Here, every sunrise smells like adventure, and every sunset invites you to relax.  Our mascot, Tiko the Chameleon, represents what defines us most: harmony with nature, adaptability, and the vibrant color that brings our campsite to life. Like Tiko, we take the time to enjoy our surroundings, connect with the earth, and care for every little detail so you feel right at home.  At Camping BrisaMar, we are committed to sustainable and local tourism, where respect for the environment and love for the Malaga coastline go hand in hand. Whether you come with family, friends, or as a couple, you’ll find the perfect balance between fun, relaxation, and nature.</string>
-    <string name="BotonNosotros">About Us</string>
-    <string name="historia">History</string>
-    <string name="InfoDev">Developer Information</string>
-    <string name="Nombre">Name: Jose Antonio Fernández Guerrero</string>
-    <string name="Correo">Email: jfergue055@g.educaand.es</string>
-    <string name="Portafolio">Portfolio: www.joseantonio.com</string>
-    <string name="DatosApli">App information</string>
-    <string name="Version">Version: 1.0.0</string>
-    <string name="NombreCamping">Name: ExotiCamping</string>
 </resources>
