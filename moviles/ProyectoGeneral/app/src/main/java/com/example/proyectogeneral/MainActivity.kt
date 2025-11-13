@@ -10,6 +10,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.compose.CampingTheme
+import com.example.proyectogeneral.ui.AcercaDe
 import com.example.proyectogeneral.ui.CampingMain
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CampingTheme{
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                        CampingMain(modifier = Modifier.padding(innerPadding));
+                        AcercaDe(modifier = Modifier.padding(innerPadding));
                 }
             }
         }

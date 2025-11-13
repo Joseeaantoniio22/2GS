@@ -22,6 +22,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.compose.CampingTheme
 import com.example.proyectogeneral.R
 
 @Composable
@@ -74,5 +75,7 @@ fun SobreNosotros(){
 @Preview(showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_NO)
 @Composable
 fun PreviewSobreNosotros() {
-    SobreNosotros()
+    CampingTheme {
+        SobreNosotros()
+    }
 }

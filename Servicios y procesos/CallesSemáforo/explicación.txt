@@ -1,0 +1,27 @@
+Problema: Control de tráfico en un cruce
+
+Imaginemos un cruce de caminos donde hay dos calles que se cruzan (Calle A y Calle B). Cada calle tiene una serie de coches que intentan cruzar el cruce. Solo puede pasar un coche a la vez, y los coches de una calle deben esperar si hay un coche cruzando de la otra calle. 
+
+El sistema tiene las siguientes reglas:
+
+1. Si hay coches esperando en una calle, deben esperar a que pasen todos los de la otra calle.
+2. Solo se utiliza un semáforo para controlar el acceso al cruce, además de un contador para llevar la cuenta de los coches en espera en cada calle.
+
+
+Explicación del código
+
+1. Clase `ControladorCruce`:
+   - Controla el acceso al cruce y el flujo de coches de ambas calles.
+   - Utiliza un semáforo para permitir que solo un coche cruce a la vez.
+   - Lleva un contador para los coches en cada calle y una variable booleana para saber qué calle tiene prioridad.
+
+2. Método `solicitarCruzar`:
+   - Cuando un coche llega a la intersección, se incrementa el contador correspondiente.
+   - Se comprueba si es su turno de cruzar. Si no, el coche espera.
+   - Cuando es su turno, el coche cruza y se simula un tiempo de cruce.
+
+3. Clase `Coche`:
+   - Representa un coche que intenta cruzar el cruce.
+
+4. Método `main` de SimuladorTráfico:
+   - Se crean varios coches que intentan cruzar desde ambas calles.
