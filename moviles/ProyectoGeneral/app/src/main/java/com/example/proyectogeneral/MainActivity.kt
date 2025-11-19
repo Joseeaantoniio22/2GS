@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import com.example.compose.CampingTheme
 import com.example.proyectogeneral.ui.AcercaDe
 import com.example.proyectogeneral.ui.CampingMain
+import com.example.proyectogeneral.ui.ConfiguracionCampingScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CampingTheme{
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                        AcercaDe(modifier = Modifier.padding(innerPadding));
+                        ConfiguracionCampingScreen(modifier = Modifier.padding(innerPadding));
                 }
             }
         }

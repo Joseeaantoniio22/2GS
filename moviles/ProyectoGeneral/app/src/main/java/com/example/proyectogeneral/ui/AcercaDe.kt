@@ -29,7 +29,7 @@ import com.example.proyectogeneral.R
 import com.example.ui.theme.AppTypography
 
 @Composable
-fun AcercaDe(){
+fun AcercaDe(modifier: Modifier = Modifier){
     val context = LocalContext.current;
     Column(
         verticalArrangement = Arrangement.spacedBy(
