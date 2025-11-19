@@ -41,6 +41,10 @@ class ControladorCruce {
       // Señalamos que el cruce quedó libre
       cruce.release();
 
+    /*
+     * NOTIFY ALL
+     */
+
     } else {
       cochesEnB++;
       // Nos suspendemos (aunque nos despierten) si es el turno de la calle A y sigue habiendo coches en A
