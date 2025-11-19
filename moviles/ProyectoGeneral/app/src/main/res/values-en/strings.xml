@@ -14,4 +14,20 @@
     <string name="DatosApli">App information</string>
     <string name="Version">Version: 1.0.0</string>
     <string name="NombreCamping">Name: ExotiCamping</string>
+    <string name="configuracion_camping">Camping Settings</string>
+    <string name="admite_mascotas">Allows pets</string>
+    <string name="incluye_electricidad">Includes electricity</string>
+    <string name="recibir_notificaciones">Receive notifications</string>
+    <string name="modo_nocturno">Night mode</string>
+    <string name="recordatorio_reservas">Booking reminders</string>
+    <string name="localizacion_camping">Camping location</string>
+    <string name="tipo_parcela">Pitch type:</string>
+    <string name="parcela_camping">Camping</string>
+    <string name="parcela_caravana">Caravan</string>
+    <string name="parcela_autocaravana">Motorhome</string>
+    <string name="temporada">Season:</string>
+    <string name="temporada_alta">High</string>
+    <string name="temporada_media">Mid</string>
+    <string name="temporada_baja">Low</string>
+    <string name="guardar_configuracion">Save settings</string>
 </resources>
