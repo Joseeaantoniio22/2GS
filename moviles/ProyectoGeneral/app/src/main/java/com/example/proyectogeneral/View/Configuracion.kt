@@ -1,4 +1,4 @@
-package com.example.proyectogeneral.ui
+package com.example.proyectogeneral.View
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -10,7 +10,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.proyectogeneral.R
-import com.example.proyectogeneral.ui.datos.ConfiguracionCampingDataStore
+import com.example.proyectogeneral.model.ConfiguracionCampingDataStore
 import kotlinx.coroutines.launch
 
 @Composable
@@ -20,7 +20,6 @@ fun ConfiguracionCampingScreen(modifier: Modifier = Modifier) {
     val scope = rememberCoroutineScope()
     val dataStore = ConfiguracionCampingDataStore(context)
 
-    // Valores reales directamente desde DataStore (UNICA fuente de verdad)
     val admiteMascotas by dataStore.admiteMascotasFlow.collectAsState(false)
     val incluyeElectricidad by dataStore.incluyeElectricidadFlow.collectAsState(false)
     val notificaciones by dataStore.notificacionesFlow.collectAsState(false)
@@ -90,7 +89,6 @@ fun ConfiguracionCampingScreen(modifier: Modifier = Modifier) {
 
         Spacer(Modifier.height(20.dp))
 
-        // RADIO BUTTONS --------------------------------------------------------
         Text(text = context.getString(R.string.tipo_parcela))
 
         Row(verticalAlignment = Alignment.CenterVertically) {
@@ -123,7 +121,6 @@ fun ConfiguracionCampingScreen(modifier: Modifier = Modifier) {
 
         Box {
             Button(onClick = { expanded = true }) {
-                // Muestra la temporada actual con la primera letra en mayúscula
                 Text(text = "${stringResource(R.string.temporada)} ${temporada.replaceFirstChar { it.uppercase() }}")
             }
 
@@ -157,7 +154,6 @@ fun ConfiguracionCampingScreen(modifier: Modifier = Modifier) {
 
         Spacer(Modifier.height(25.dp))
 
-        // BOTÓN GUARDAR --------------------------------------------------------
         Button(
             onClick = {
                 scope.launch {

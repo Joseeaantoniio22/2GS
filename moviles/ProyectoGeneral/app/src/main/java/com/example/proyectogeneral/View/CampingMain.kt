@@ -1,4 +1,4 @@
-package com.example.proyectogeneral.ui
+package com.example.proyectogeneral.View
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement

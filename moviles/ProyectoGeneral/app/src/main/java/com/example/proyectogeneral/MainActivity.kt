@@ -5,15 +5,10 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import com.example.compose.CampingTheme
-import com.example.proyectogeneral.ui.AcercaDe
-import com.example.proyectogeneral.ui.CampingMain
-import com.example.proyectogeneral.ui.ConfiguracionCampingScreen
-import com.example.proyectogeneral.ui.SobreNosotros
+import com.example.proyectogeneral.View.ConfiguracionCampingScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +17,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             CampingTheme{
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                        SobreNosotros();
+                        ConfiguracionCampingScreen();
                 }
             }
         }

@@ -58,7 +58,6 @@ public class Jugador {
                 for (int i = 0; i < NUMERO_OPERACIONES; i++) {
                     // Esperamos un tiempo aleatorio, para poder ver la evolución del juego
                     try {
-
                         Random random = new Random();
                         Thread.sleep(random.nextInt(2500 - 500 + 1) + 500);
                     } catch (Exception e) {
@@ -80,8 +79,8 @@ public class Jugador {
                         // Imprime el mensaje sobre la transacción por consola
 
                         Random accion = new Random();
-                        int venderComprar = accion.nextInt((2-1+1)+1);
-                        int articulo = accion.nextInt((3-1+1)+1);
+                        int venderComprar = accion.nextInt(2-1+1)+1;
+                        int articulo = accion.nextInt(3-1+1)+1;
                         if (venderComprar == 1) {
                             System.out.println(comprarArtículo(inventario, articulo));
                         }else{

@@ -1,3 +1,3 @@
-Articulo 1:  57 unidades, precio 10.
-Articulo 2:  34 unidades, precio 20.
-Articulo 3:  40 unidades, precio 30.
+Articulo 1:  56 unidades, precio 10.
+Articulo 2:  32 unidades, precio 20.
+Articulo 3:  44 unidades, precio 30.
