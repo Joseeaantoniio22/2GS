@@ -24,6 +24,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.compose.CampingTheme
 import com.example.proyectogeneral.R
+import com.example.ui.theme.AppTypography
 
 @Composable
 fun SobreNosotros(){
@@ -40,7 +41,8 @@ fun SobreNosotros(){
     ) {
         Spacer(modifier = Modifier.height(40.dp))
         Text(
-            text = context.getString(R.string.BotonNosotros)
+            text = context.getString(R.string.BotonNosotros),
+            style = AppTypography.displayLarge
         )
 
         Image(

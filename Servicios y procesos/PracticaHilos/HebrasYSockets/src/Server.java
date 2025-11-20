@@ -15,7 +15,6 @@ public class Server {
                 // Esperar a una conexión de un cliente
                 Socket clientSocket = serverSocket.accept();
                 System.out.println("Conexión aceptada de: " + clientSocket.getInetAddress());
-
                 // Crear un nuevo hilo para manejar la conexión
                 executor.submit(new ClientHandler(clientSocket));
             }
