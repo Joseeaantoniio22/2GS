@@ -1,0 +1,26 @@
+<h2>Pet Tracker</h2>
+
+<div>
+  <input type="text" [(ngModel)]="newPet" placeholder="Nombre de la mascota" />
+  <button (click)="addPet()">Agregar</button>
+</div>
+
+<div style="margin: 15px 0;">
+  <button class="filter" [class.active]="filter === 'all'" (click)="filter = 'all'">Todas</button>
+  <button class="filter" [class.active]="filter === 'Alimentada'" (click)="filter = 'Alimentada'">Alimentadas</button>
+  <button class="filter" [class.active]="filter === 'Hambrienta'" (click)="filter = 'Hambrienta'">Hambrientas</button>
+</div>
+
+<p>Alimentadas: {{ fedCount }}</p>
+
+<ul>
+  <li *ngFor="let pet of filteredPets">
+    <input type="checkbox" [checked]="pet.fed" (change)="toggleFed(pet)" />
+
+    <span class="pet-name" [ngClass]="pet.fed ? 'pet-fed' : 'pet-hungry'">
+      {{ pet.name }}
+    </span>
+
+    <button class="delete-btn" (click)="deletePet(pet.name)">❌</button>
+  </li>
+</ul>
