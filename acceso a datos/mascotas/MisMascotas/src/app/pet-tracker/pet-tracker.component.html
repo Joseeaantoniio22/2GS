@@ -1,26 +1,69 @@
-<h2>Pet Tracker</h2>
+<div class="container">
+  <h2>Gestor de Mascotas</h2>
 
-<div>
-  <input type="text" [(ngModel)]="newPet" placeholder="Nombre de la mascota" />
-  <button (click)="addPet()">Agregar</button>
-</div>
+  <!-- Sección de Agregar -->
+  <div class="add-section">
+    <input 
+      type="text" 
+      [(ngModel)]="newPet" 
+      placeholder="Nombre de la mascota"
+      (keyup.enter)="addPet()"
+    >
+    
+    <!-- Selector de tipo -->
+    <select [(ngModel)]="newPetType">
+      <option value="Perro">Perro</option>
+      <option value="Gato">Gato</option>
+      <option value="Otro">Otro</option>
+    </select>
 
-<div style="margin: 15px 0;">
-  <button class="filter" [class.active]="filter === 'all'" (click)="filter = 'all'">Todas</button>
-  <button class="filter" [class.active]="filter === 'Alimentada'" (click)="filter = 'Alimentada'">Alimentadas</button>
-  <button class="filter" [class.active]="filter === 'Hambrienta'" (click)="filter = 'Hambrienta'">Hambrientas</button>
-</div>
-
-<p>Alimentadas: {{ fedCount }}</p>
-
-<ul>
-  <li *ngFor="let pet of filteredPets">
-    <input type="checkbox" [checked]="pet.fed" (change)="toggleFed(pet)" />
-
-    <span class="pet-name" [ngClass]="pet.fed ? 'pet-fed' : 'pet-hungry'">
-      {{ pet.name }}
+    <!-- Botón con validación integrada: se bloquea si es corto -->
+    <button 
+      (click)="addPet()" 
+      [disabled]="newPet.trim().length < 3">
+      Añadir
+    </button>
+    
+    <!-- Mensaje de error visual si escribe pero no llega a 3 letras -->
+    <span *ngIf="newPet.trim().length > 0 && newPet.trim().length < 3" style="color: red; margin-left: 10px; font-size: 0.9em;">
+      Mínimo 3 letras
     </span>
+  </div>
 
-    <button class="delete-btn" (click)="deletePet(pet.name)">❌</button>
-  </li>
-</ul>
+  <!-- Sección de Filtros -->
+  <div class="filter-section">
+    <select [(ngModel)]="filter">
+      <option value="all">Todas</option>
+      <option value="Alimentada">Alimentadas</option>
+      <option value="Hambrienta">Hambrientas</option>
+    </select>
+
+    <!-- Checkbox para Ordenar Alfabéticamente -->
+    <label style="margin-left: 15px; cursor: pointer;">
+      <input type="checkbox" [(ngModel)]="ordenarAlfabetico"> 
+      Ordenar A-Z
+    </label>
+
+    <span style="margin-left: 15px;">Total alimentadas: {{ fedCount }}</span>
+  </div>
+
+  <!-- Lista de Mascotas -->
+  <ul>
+    <li *ngFor="let pet of filteredPets">
+      <!-- Mostramos el icono según el tipo -->
+      <span class="icon">{{ getIcon(pet.type) }}</span>
+      
+      <span [class.fed]="pet.fed">
+        {{ pet.name }} ({{ pet.type }})
+      </span>
+
+      <button (click)="toggleFed(pet)">
+        {{ pet.fed ? 'Ya comió' : 'Dar comida' }}
+      </button>
+      
+      <button (click)="deletePet(pet.name)">Eliminar</button>
+    </li>
+  </ul>
+  
+  <p *ngIf="pets.length === 0">No hay mascotas registradas.</p>
+</div>
