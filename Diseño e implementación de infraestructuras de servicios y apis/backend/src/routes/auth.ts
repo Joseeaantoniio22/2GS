@@ -1,8 +1,8 @@
 import { Router } from 'express';
 import { prisma } from '../prisma';
-import bcrypt from 'bcrypt';
-import jwt from 'jsonwebtoken';
-import * from 'dotenv';
+import * as bcrypt from 'bcrypt';
+import * as jwt from 'jsonwebtoken';
+import * as dotenv from 'dotenv';
 dotenv.config();
 const router = Router();
 // Registro

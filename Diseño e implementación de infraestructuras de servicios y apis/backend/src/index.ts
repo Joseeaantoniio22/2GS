@@ -1,7 +1,7 @@
-import express from 'express';
-import cors from 'cors';
+import * as express from 'express';
+import * as cors from 'cors';
 import authRoutes from './routes/auth';
-import productRoutes from './routes/products';
+import productRoutes from './routes/product';
 const app = express();
 app.use(cors());
 app.use(express.json());
