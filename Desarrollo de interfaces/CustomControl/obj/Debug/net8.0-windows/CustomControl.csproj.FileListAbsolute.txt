@@ -1,0 +1,17 @@
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\bin\Debug\net8.0-windows\CustomControl.deps.json
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\bin\Debug\net8.0-windows\CustomControl.dll
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\bin\Debug\net8.0-windows\CustomControl.pdb
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\CustomControl_MarkupCompile.cache
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\CustomControl_MarkupCompile.lref
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\Themes\Generic.baml
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\CustomControl.g.resources
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\CustomControl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\CustomControl.AssemblyInfoInputs.cache
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\CustomControl.AssemblyInfo.cs
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\CustomControl.csproj.CoreCompileInputs.cache
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\CustomControl.sourcelink.json
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\CustomControl.dll
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\refint\CustomControl.dll
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\CustomControl.pdb
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\ref\CustomControl.dll
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\CustomControl\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

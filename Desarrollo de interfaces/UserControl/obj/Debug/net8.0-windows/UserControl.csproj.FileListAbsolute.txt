@@ -1,0 +1,16 @@
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\bin\Debug\net8.0-windows\UserControl.deps.json
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\bin\Debug\net8.0-windows\UserControl.dll
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\bin\Debug\net8.0-windows\UserControl.pdb
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\LabeledInput.baml
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\LabeledInput.g.cs
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\UserControl_MarkupCompile.cache
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\UserControl.g.resources
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\UserControl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\UserControl.AssemblyInfoInputs.cache
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\UserControl.AssemblyInfo.cs
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\UserControl.csproj.CoreCompileInputs.cache
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\UserControl.sourcelink.json
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\UserControl.dll
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\refint\UserControl.dll
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\UserControl.pdb
+C:\Users\jfergue055\Documents\2GS\Desarrollo de interfaces\proyectoindividualud3-Joseeaantoniio22\UserControl\obj\Debug\net8.0-windows\ref\UserControl.dll
