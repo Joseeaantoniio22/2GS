@@ -1,1 +1,3 @@
-from . import calculos
+import calculos
+import funciones
+import gest_hipotecas

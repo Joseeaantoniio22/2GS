@@ -1,2 +1,4 @@
 import funciones
-funciones.menu()
+import gest_hipotecas
+
+gest_hipotecas.menu()
