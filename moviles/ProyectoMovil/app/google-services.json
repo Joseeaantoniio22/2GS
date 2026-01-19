@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "949781741210",
+    "project_id": "illo-camperos-movil",
+    "storage_bucket": "illo-camperos-movil.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949781741210:android:814c14d0517a964db56923",
+        "android_client_info": {
+          "package_name": "com.example.proyectomovil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvnh0r4vXb7Taj9xyINGCveORe0dhiWfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
